@@ -84,10 +84,10 @@ section{
     grid-gap: 6rem;
     align-items: center;
 }
-.home-img img{
+.home-image img{
     max-width: 100%;
-    width: 300px;
-    height: 250px;
+    width: 600px;
+    height: auto;
 }
 .home-text h5{
     color: var(--text-color);
@@ -143,7 +143,7 @@ section{
 }
 .about-img img{
     max-width: 100%;
-    width: 580px;
+    width: 500px;
     height: auto;
 }
 .about-text h3{
@@ -430,7 +430,7 @@ form .send-btn:hover{
 @media (max-width: 795px){
     .home{
         grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        gap: 2rem;
         text-align: center;
         margin-top: 80px;
         height: 100vh;
@@ -438,10 +438,10 @@ form .send-btn:hover{
     .home-text p{
         max-width: 100%;
     }
-    .home-img img{
+    .home-image img{
         max-width: 100%;
-        width: 499px;
-        height: auto;
+        width: 200px;
+        height: 200px;
     }
     .about{
         grid-template-columns: 1fr;
